@@ -54,3 +54,6 @@ class UserResource(Resource):
         if not user:
             api.abort(404, "Usuario no encontrado")
         return "", 204
+
+
+#mofificado
